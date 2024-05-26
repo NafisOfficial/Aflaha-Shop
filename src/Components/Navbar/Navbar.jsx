@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { authContext } from "../../Provider/AuthProvider/AuthProvider";
 
 const Navbar = () => {
 
-  const [user, setUser] = useState(false);
+  const {user} = useContext(authContext);
 
   //drop-down function for user
   const dropdown = <div>
