@@ -1,15 +1,7 @@
-/* Tailwind css dependencies */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/*dependencies for fonts from material ui */
-@fontsource/roboto/300.css;
-@fontsource/roboto/400.css;
-@fontsource/roboto/500.css;
-@fontsource/roboto/700.css;
-
 *{
-    margin: 0;
+    font-family: sans-serif;
 }
-
